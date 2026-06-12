@@ -3,6 +3,7 @@ import 'ash_viper.dart';
 import 'grave_warden.dart';
 import 'iron_ghost.dart';
 import 'night_blade.dart';
+import 'void_drake.dart';
 
 /// The playable roster, in select-screen order. Adding a fighter here (plus
 /// assets and a data file) is the complete integration.
@@ -11,6 +12,7 @@ final Map<String, FighterData Function()> rosterBuilders = {
   'iron_ghost': ironGhost,
   'night_blade': nightBlade,
   'grave_warden': graveWarden,
+  'void_drake': voidDrake,
 };
 
 List<String> get rosterIds => rosterBuilders.keys.toList();

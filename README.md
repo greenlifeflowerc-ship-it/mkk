@@ -7,8 +7,9 @@ built with **Flutter + Flame**, 100% original or properly licensed content.
 
 - Deterministic 60 Hz fixed-timestep combat: data-driven frame data,
   hitbox/hurtbox collision, hitstop, pushback, corner handling, screen shake
-- 4 playable fighters (Ash Viper, Iron Ghost, Night Blade, Grave Warden) —
-  each is one data file + sprite sheets, zero engine changes to add more
+- 5 playable fighters (Ash Viper, Iron Ghost, Night Blade, Grave Warden,
+  Void Drake) — each is one data file + sprite sheets, zero engine changes
+  to add more
 - Specials (quarter-circle-forward + punch, or the SPECIAL button),
   EX versions powered by a 3-segment super meter, projectiles,
   MK-style uppercut (down + heavy), combo counter with damage scaling
@@ -51,6 +52,8 @@ composites stage layers offline for tuning. Raw downloaded packs live in
 
 - Fighters: "Martial Hero" 1-3 and "Fantasy Warrior" by
   [LuizMelo](https://luizmelo.itch.io/) (CC0)
+- Void Drake: original AI-generated sprite set (Higgsfield / Nano Banana
+  Pro), repackaged by `tool/import_void_drake.dart`
 - Stages: "Gothicvania Cemetery" and "Mountain Dusk" by
   [ansimuz](https://ansimuz.itch.io/) (free for commercial use)
 - Hit/block sparks and smears: "Battle VFX" packs by
